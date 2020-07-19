@@ -6,7 +6,7 @@ import shodan
 host = input("Digite a url do alvo:")
 ip = socket.gethostbyname(host)
 
-SHODAN_API_KEY = "VEwqH1TXvRWKxeQ1eAmNoE1zvNLb3iMo"
+SHODAN_API_KEY = "Inserir chave da API"
 
 api = shodan.Shodan(SHODAN_API_KEY)
 
